@@ -4,4 +4,5 @@ class User < ApplicationRecord
   serialize :json_user, JSON
 
   validates :name, presence: true
+  
 end
